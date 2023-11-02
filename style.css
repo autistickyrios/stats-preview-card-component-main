@@ -58,7 +58,14 @@ html {
 
 /* GENERAL STYLING */
 
+main {
+  display: grid;
+  place-content: center;
+  margin: auto;
+}
+
 body {
+  height: 100vh;
   font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
   color: hsla(0, 0%, 100%, 0.75);
@@ -66,7 +73,6 @@ body {
   background-color: hsl(233, 47%, 7%);
   display: grid;
   place-content: center;
-  margin: 5rem;
 }
 
 .card-stats {
